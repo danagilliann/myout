@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController!.navigationBar.hidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +22,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var labelEx: UILabel!
+    
+    @IBOutlet var firstWindow: UIView!
+    
+    
 
+    @IBAction func bicepCurlsButton(sender: AnyObject) {
+            println("hello world")
+    }
+    
+    @IBAction func pushUpButton(sender: AnyObject) {
+        
+    }
+    
+    @IBAction func shadowBoxingButton(sender: AnyObject) {
+        
+    }
+    
+    
 }
 
